@@ -17,27 +17,27 @@ student = {
 # print(student["marks"]);
 # print(student["marks"]["math"]);#imp
 
-# -------------------------------------------------------------->
+#? -------------------------------------------------------------->
 #operations 
 # print(len(student));
 
-# #1:insert
+# #?1:insert
 # new_dict = {"id":2,"dept":"IT","Date":"25-02-2024"};
 # student.update({"city":"balasore"}); #Insert the key and value in a  dictionary
 # student.update(new_dict);
 # print(student);
 
-# #2:geting all keys
+# #?2:geting all keys
 # print(student.keys()); #return all keys present in the dict
 
-# #3:getting all values of dictionary
+# #?3:getting all values of dictionary
 # print(student.values()); # return all values
 
-# #geting items i.e. both key and value
+# #?geting items i.e. both key and value
 # print(student.items()); # returns tuple containing key and its value
 # print(list(student.items())); #converts items into list
 
-# #get the value of a perticular key
+# #?get the value of a perticular key
 # print(student.get("name")); #more preferable because it will never give error..
 # print(student["name"]); #It will give error if we pass wrong key..
 
